@@ -11,6 +11,7 @@ const Comments = props => {
       {comments.map(comment => {
         return (
           <Comment
+            key={comment.id}
             comment={comment}
           />
         )
